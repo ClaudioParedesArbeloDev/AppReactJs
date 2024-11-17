@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "marca": "forclaz",
+        "modelo": "Plumífero de montaña y trekking con capucha Hombre Forclaz MT500",
+        "descripcion": "Esta chaqueta acolchada, rellena de plumón con certificado RDS, ha sido diseñada para mantenerte abrigado en tus rutas con tiempo de hasta -10 °C. Una chaqueta que se guarda fácilmente en su funda, para transportarla cómodamente en la mochila. Su tejido cuenta con tratamiento perlante si PCF para evitar que el agua penetre.",
+        "precio": 59.99,
+        "image": "https://contents.mediadecathlon.com/p2598874/k$ad5b1945cb86647cc7db1a6382fc6a31/sq/plumifero-de-montana-y-trekking-con-capucha-hombre-forclaz-mt500.jpg?format=auto&f=969x969",
+        "stock": 10,
+        "categoria": "hombre"
+    },
+    {
+        "id": 2,
+        "marca": "forclaz",
+        "modelo":"Plumífero de montaña y trekking Hombre Forclaz MT500",
+        "descripcion": "Esta chaqueta acolchada, con plumón certificado con RDS, ha ido diseñada para abrigarte en tus rutas de montaña o a diario con tiempo frío (hasta -10 ºC). Con un tejido exterior resistente a la abrasión, su capacidad de inflado es de 660 CUIN. Además, cuenta con tratamiento perlante en la superficie para que el agua no penetre.",
+        "precio": 59.99,
+        "image": "https://contents.mediadecathlon.com/p2028685/k$5ac0f14852f1b856effb452bf9f81266/sq/plumifero-de-montana-y-trekking-hombre-forclaz-mt500.jpg?format=auto&f=969x969",
+        "stock": 15,
+        "categoria": "hombre"
+    },
+    {
+        "id": 3,
+        "marca": "quechua",
+        "modelo": "Chaqueta bomber de montaña y nieve impermeable Hombre Quechua SH500",
+        "descripcion": "La cazadora cálida ideal para los senderismos y salidas cotidianas en invierno. Excelente nivel de impermeabilidad para todas las condiciones de nieve. Apreciarás su corte bomber muy tendencia y ajustado para alternar la ciudad con el senderismo. Técnica gracias a todas sus costuras estancas y cómoda hasta -10 °C en actividad.",
+        "precio": 59.99,
+        "image": "https://contents.mediadecathlon.com/p2294409/k$9b414c25f9cc4409bddb4bf2caf3e638/sq/chaqueta-bomber-de-montana-y-nieve-impermeable-hombre-quechua-sh500.jpg?format=auto&f=969x969",
+        "stock": 7,
+        "categoria": "hombre"
+    },
+    {
+        "id": 4,
+        "marca": "wedze",
+        "modelo": "Chaqueta de esquí y nieve impermeable Hombre Wedze FR500",
+        "descripcion": "Hemos concebido esta chaqueta para freeriders nivel perfeccionamiento. Los pads de calor abrigan para esquiar con cualquier tiempo. Sal de las pistas sin olvidar tu comodidad. Después del esfuerzo, las axilas ventiladas ayudan a bajar la temperatura. La capucha ajustable en 3D se coloca cómodamente sobre el casco.",
+        "precio": 89.99,
+        "image": "https://contents.mediadecathlon.com/p2623027/k$d2a7e8cedf9770fdb4c3385a1ee62ea7/sq/chaqueta-de-esqui-y-nieve-impermeable-hombre-wedze-fr500.jpg?format=auto&f=969x969",
+        "stock": 5,
+        "categoria": "hombre"
+    },
+    {
+        "id": 5,
+        "marca": "helly hansen",
+        "modelo": "Chaqueta Impermeable CREW MIDLAYER JACKET Hombre Helly Hansen",
+        "descripcion": "Una popular chaqueta con forro polar interior confeccionada con tejido HELLY TECH® impermeable, cortavientos y transpirable en un diseño estiloso que mantiene tu cuerpo seco y abrigado",
+        "precio": 131.80,
+        "image": "https://contents.mediadecathlon.com/m17893349/k$3b55de8c406cd3dff2c2ab0b4fc9a5ea/sq/chaqueta-impermeable-crew-midlayer-jacket-hombre-helly-hansen.jpg?format=auto&f=969x969",
+        "stock": 12,
+        "categoria":"hombre"
+    },
+    {
+        "id": 6,
+        "marca": "fouganza",
+        "modelo": "Chaqueta Equitación Azul Marino Larga Impermeable",
+        "descripcion": "Nuestros diseñadores jinetes han desarrollado esta chaqueta larga para las amazonas que practican regularmente! Te acompaña con tiempo lluvioso. Nuestra chaqueta puede ajustarse a la cintura gracias al sistema de ajuste. Las cremalleras laterales facilitan los movimientos a caballo.",
+        "precio": 64.99,
+        "image": "https://contents.mediadecathlon.com/p2658434/k$9a5ae4ef7950a9f50906361ae37436ef/sq/chaqueta-equitacion-azul-marino-larga-impermeable.jpg?format=auto&f=969x969",
+        "stock": 10,
+        "categoria": "mujer"
+    },
+    {
+        "id": 7,
+        "marca": "fouganza",
+        "modelo": "Chaqueta Equitación 900 Mujer Verde Cálida",
+        "descripcion": "Nuestros diseñadores de equitación han desarrollado esta chaqueta para las amazonas de práctica intensiva. Su impermeabilidad te ofrece sesiones secas con cualquier tiempo. ¿Buscas una chaqueta tan cálida como cómoda? Nuestra chaqueta 900 cálida es ideal en invierno para protegerte del frío y la lluvia, al tiempo que te ofrece una excelente libertad de movimientos.",
+        "precio": 84.99,
+        "image": "https://contents.mediadecathlon.com/p2658393/k$0e7478d0bf8d85244ee8cac7cc055611/sq/chaqueta-equitacion-900-mujer-verde-calida.jpg?format=auto&f=969x969",
+        "stock": 14,
+        "categoria":"mujer"
+    },
+    {
+        "id": 8,
+        "marca": "forclaz",
+        "modelo": "Plumífero de montaña y trekking con capucha Mujer Forclaz MT500",
+        "descripcion": "Esta chaqueta acolchada de plumón con certificado RDS y con capucha ha sido diseñada para tus rutas de montaña con tiempo frío hasta -10 °C. Una chaqueta muy compacta, podrá guardarla en la bolsa que lleva incluida. Incluye 2 bolsillos para manos y 3 bolsillos interiores.",
+        "precio": 69.99,
+        "image": "https://contents.mediadecathlon.com/p2301785/k$6a980286574d4765224f77c38768b00e/sq/plumifero-de-montana-y-trekking-con-capucha-mujer-forclaz-mt500.jpg?format=auto&f=969x969",
+        "stock": 18,
+        "categoria":"mujer"
+    },
+    {
+        "id": 9,
+        "marca": "siroko",
+        "modelo": "Chaqueta acolchada resistente al agua mujer lifestyle Natur-W SIROKO Blanco",
+        "descripcion":"La chaqueta acolchada Natur-W aúna diseño y funcionalidad. Fabricada con tejido de poliéster 100%.",
+        "precio": 99.95,
+        "image": "https://contents.mediadecathlon.com/m15388831/k$2831e975c89e35341e97e271077929d1/sq/chaqueta-acolchada-resistente-al-agua-mujer-lifestyle-natur-w-siroko-blanco.jpg?format=auto&f=969x969",
+        "stock": 20,
+        "categoria":"mujer"
+    },
+    {
+        "id": 10,
+        "marca": "siroko",
+        "modelo": "Chaqueta acolchada resistente al agua mujer lifestyle Fire-W Naranja Intenso",
+        "descripcion":"Chaqueta acolchada Fire, resistente al agua y transpirable. Con aislamiento Zermoly y dos bolsillos laterales con cremalleras. Plegable en bolsillo interno.",
+        "precio": 99.95,
+        "image": "https://contents.mediadecathlon.com/m15388846/k$7685a2da087c5885e624d530e7a85c08/sq/chaqueta-acolchada-resistente-al-agua-mujer-lifestyle-fire-w-naranja-intenso.jpg?format=auto&f=969x969",
+        "stock": 8,
+        "categoria":"mujer"
+    },
+    {
+        "id": 11,
+        "marca": "adidas",
+        "modelo": "Chándal transpirable adidas Niños Negro Verde 3 Bandas",
+        "descripcion": "Bordes de canalé para un ajuste perfecto, tejido ligero y transpirable y bolsillos laterales: lo tiene todo para gustar. Un chándal cómodo para llevar a diario. Gracias a su tecnología AEROREADY, evacúa la sudoración para mantener el cuerpo seco durante todo el día.",
+        "precio": 38.99,
+        "image": "https://contents.mediadecathlon.com/p2764748/k$5012dc95686f3d341f0ffa1b1d79fb6b/sq/chandal-transpirable-adidas-ninos-negro-verde-3-bandas.jpg?format=auto&f=969x969",
+        "stock": 23,
+        "categoria": "niños"
+    },
+    {
+        "id": 12,
+        "marca": "adidas",
+        "modelo":"Chándal adidas Bebé Negro Dorado",
+        "descripcion": "Prenda diseñada para acompañarte durante todo el día. Este chándal es cómodo gracias a su material y a su corte y puede llevarse a todas partes, ¡todos los días!",
+        "precio": 26.49,
+        "image": "https://contents.mediadecathlon.com/p2420233/k$7a61018473c32f4c424556ecf5a5b2b7/sq/chandal-adidas-bebe-negro-dorado.jpg?format=auto&f=969x969",
+        "stock": 13,
+        "categoria":"niños"
+    },
+    {
+        "id": 13,
+        "marca": "puma",
+        "modelo": "Chándal Puma Niños Negro/Azul Material Sintético Transpirable",
+        "descripcion": "Un conjunto deportivo que tu hijo/a podrá utilizar tanto para el entrenamiento como para el día a día. Un conjunto deportivo que tu hijo/a podrá utilizar tanto para el entrenamiento como para el día a día.",
+        "precio": 24.99,
+        "image": "https://contents.mediadecathlon.com/p2426453/k$25973efbfe9b9ad3c0f91e961cac4aee/sq/chandal-puma-ninos-negroazul-material-sintetico-transpirable.jpg?format=auto&f=969x969",
+        "stock": 23,
+        "categoria":"niños"
+    },
+    {
+        "id": 14,
+        "marca": "wedze",
+        "modelo":"Chaqueta de esquí y nieve impermeable Niños Wedze FR500",
+        "descripcion":"Nuestro equipo ha desarrollado esta chaqueta de esquí con media cremallera para ofrecer a los jóvenes esquiadores un estilo rider sin renunciar a la comodidad. Un estilo muy tendencia, conservando los atributos de una auténtica chaqueta de esquí: Chaqueta impermeable, con antientrada de nieve y ventilaciones.",
+        "precio": 39.99,
+        "image": "https://contents.mediadecathlon.com/p2114796/k$9f30070f0852ce306e4f7fcd91231191/sq/chaqueta-de-esqui-y-nieve-impermeable-ninos-wedze-fr500.jpg?format=auto&f=969x969",
+        "stock": 18,
+        "categoria": "niños"
+    },
+    {
+        "id": 15,
+        "marca": "leone 1947 apparel",
+        "modelo": "Chándal de bebé con capucha y cremallera Welcome Back",
+        "descripcion": "Ropa deportiva y de ocio de la marca italiana Leone 1947, líder mundial en el mundo del boxeo. Sabor vintage y líneas cautivadoras para un aspecto atemporal. #wearecombatsport",
+        "precio": 36.19,
+        "image": "https://contents.mediadecathlon.com/m13465062/k$91d0f8f2bcc2eacd788da49294babc83/sq/chandal-de-bebe-con-capucha-y-cremallera-welcome-back.jpg?format=auto&f=969x969",
+        "stock": 13,
+        "categoria": "niños"
+    }
+]

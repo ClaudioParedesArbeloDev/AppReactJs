@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+.wrapAboutUs {
+  background: #000000;
+}
+
+.aboutUs {
+  font-family: "Space Grotesk", serif;
+  justify-self: center;
+  text-align: center;
+  color: #ffffff;
+  width: 60vw;
+}
+.aboutUs h2 {
+  font-size: 1.5rem;
+  padding: 30px 0 30px 0;
+  margin: 0;
+}
+.aboutUs p {
+  font-size: 1.1rem;
+  line-height: 2em;
+  padding-bottom: 30px;
+  margin: 0;
+}/*# sourceMappingURL=aboutUs.css.map */

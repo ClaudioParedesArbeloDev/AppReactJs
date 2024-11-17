@@ -1,0 +1,80 @@
+@import "../colors/colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: $secondary-color;
+    padding: 30px 0 30px 0;
+    nav{
+        display: flex;
+        list-style: none;
+        li{ 
+            font-family: "Space Grotesk", serif;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            transform: 0.5s;
+            transition: all 0.5s;
+            a{
+                text-decoration: none;
+                color: $light-color;
+            }
+        }
+        li:hover{
+            background: $light-color;
+            a{
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+.logo{
+    p{
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.3rem;
+        color: $text-color;
+    }
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    transform: 0.5s;
+    transition: all 0.5s;
+    p{
+        font-family: "Space Grotesk", serif;
+        color: $light-color;
+    }
+    i{
+        color: $light-color;
+        padding-right: 10px;
+    }
+}
+
+.login:hover{
+    background: $light-color;
+    p{
+        color: $secondary-color;
+    }
+    i{
+        color: $secondary-color;
+    }
+}
+
+.cart{
+    color: $light-color;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+.cart:hover{
+    background: $light-color;
+    color: $secondary-color;
+}
