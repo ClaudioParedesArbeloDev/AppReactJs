@@ -47,6 +47,7 @@
 .login p {
   font-family: "Space Grotesk", serif;
   color: #ff9505;
+  margin: 0;
 }
 .login i {
   color: #ff9505;

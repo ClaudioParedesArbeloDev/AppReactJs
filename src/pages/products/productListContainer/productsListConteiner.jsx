@@ -1,6 +1,6 @@
 
 //Components
-import ProductsList from "./productsList";
+import ProductsList from "../productList/productsList";
 
 //Functions
 import {  useState } from 'react';

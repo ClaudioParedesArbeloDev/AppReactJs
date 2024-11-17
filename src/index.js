@@ -6,9 +6,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //Components
 import Navbar from './components/navbar/navbar';
 import Home from './pages/home/home';
-import ProductsListContainer from './pages/products/productsListConteiner';
+import ProductsListContainer from './pages/products/productListContainer/productsListConteiner';
 import AboutUs from './pages/aboutUs/aboutUs';
 import Contact from './pages/contact/contact';
+import ProductDetail from './pages/products/productDetail/productDetail';
 import Footer from './components/footer/footer';
 
 //Styles
@@ -26,7 +27,7 @@ root.render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<ProductsListContainer />} />
-          <Route path="/products/:id" element={<h2>Producto encontrado</h2>} />
+          <Route path="/products/:id" element={ <ProductDetail /> } />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
 
