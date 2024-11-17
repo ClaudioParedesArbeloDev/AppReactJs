@@ -15,9 +15,10 @@ function Navbar() {
                 <li><Link to={"/contact"}>Contact</Link></li>
             </nav>
             <div className="login">
-                
-                <i className="fa-solid fa-arrow-right-to-bracket"></i>
-                <p>Login</p>
+                <Link to={"/login"}>
+                    <i className="fa-solid fa-arrow-right-to-bracket"></i>
+                    <p>Login</p>
+                </Link>
             </div>
             <div className="cart">
                 <i className="fa-solid fa-cart-shopping"></i>

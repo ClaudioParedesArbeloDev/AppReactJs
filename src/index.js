@@ -10,6 +10,7 @@ import ProductsListContainer from './pages/products/productListContainer/product
 import AboutUs from './pages/aboutUs/aboutUs';
 import Contact from './pages/contact/contact';
 import ProductDetail from './pages/products/productDetail/productDetail';
+import Login from './pages/login/login';
 import Footer from './components/footer/footer';
 
 //Styles
@@ -30,6 +31,7 @@ root.render(
           <Route path="/products/:id" element={ <ProductDetail /> } />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path='/login' element={<Login />} />
 
         </Routes>
         <Footer />

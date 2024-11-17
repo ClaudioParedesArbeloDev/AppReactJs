@@ -1,3 +1,5 @@
+//Style
+import "./productListConteiner.css"
 
 //Components
 import ProductsList from "../productList/productsList";
@@ -30,6 +32,7 @@ function ProductsListContainer() {
     return (
         //Render
         <div>
+            <h2>Buscar por</h2>
             <div className="dropdown">
                 <button className="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                     Categoria

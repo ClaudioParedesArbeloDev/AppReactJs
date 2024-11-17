@@ -47,14 +47,19 @@
     border-radius: 10px;
     transform: 0.5s;
     transition: all 0.5s;
-    p{
-        font-family: "Space Grotesk", serif;
-        color: $light-color;
-        margin: 0;
-    }
-    i{
-        color: $light-color;
-        padding-right: 10px;
+    a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        p{
+            font-family: "Space Grotesk", serif;
+            color: $light-color;
+            margin: 0;
+        }
+        i{
+            color: $light-color;
+            padding-right: 10px;
+        }
     }
 }
 

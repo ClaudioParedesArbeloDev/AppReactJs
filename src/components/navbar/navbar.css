@@ -44,12 +44,17 @@
   transform: 0.5s;
   transition: all 0.5s;
 }
-.login p {
+.login a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.login a p {
   font-family: "Space Grotesk", serif;
   color: #ff9505;
   margin: 0;
 }
-.login i {
+.login a i {
   color: #ff9505;
   padding-right: 10px;
 }
