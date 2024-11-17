@@ -1,2 +1,46 @@
-@import "../colors/colors.scss";
+@import "../../components/colors/colors.scss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.productoHome{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-self: center;
+    margin: 60px 60px;
+    gap: 50px;    
+}
+
+.productImage{
+    grid-column: 1/2;
+    grid-row: span 4;
+    width: 500px;
+}
+
+.marcaProducto{
+    grid-column: 2/2;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.modeloProducto{
+    grid-column: 2/2;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.descripcionProducto{
+    grid-column: 2/2;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+
+}
+
+.precioProducto{
+    grid-column: 2/2;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: end;
+}
