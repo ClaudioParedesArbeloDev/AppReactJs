@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #353531;
+  background: #c4c3be;
   padding: 30px 0 30px 0;
 }
 .navBar nav {
@@ -20,19 +20,19 @@
 }
 .navBar nav li a {
   text-decoration: none;
-  color: #ff9505;
+  color: #104547;
 }
 .navBar nav li:hover {
-  background: #ff9505;
+  background: #104547;
 }
 .navBar nav li:hover a {
-  color: #353531;
+  color: #c4c3be;
 }
 
 .logo p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
-  color: #ffffff;
+  color: #253c78;
 }
 
 .login {
@@ -51,31 +51,35 @@
 }
 .login a p {
   font-family: "Space Grotesk", serif;
-  color: #ff9505;
+  color: #104547;
   margin: 0;
 }
 .login a i {
-  color: #ff9505;
+  color: #104547;
   padding-right: 10px;
 }
 
 .login:hover {
-  background: #ff9505;
+  background: #104547;
 }
 .login:hover p {
-  color: #353531;
+  color: #c4c3be;
 }
 .login:hover i {
-  color: #353531;
+  color: #c4c3be;
 }
 
-.cart {
-  color: #ff9505;
+.cart a {
+  text-decoration: none;
+}
+.cart a i {
+  color: #104547;
   padding: 10px;
   border-radius: 50px;
+  transition: all 0.5s;
 }
 
-.cart:hover {
-  background: #ff9505;
-  color: #353531;
+.cart:hover a i {
+  background: #104547;
+  color: #c4c3be;
 }/*# sourceMappingURL=navbar.css.map */

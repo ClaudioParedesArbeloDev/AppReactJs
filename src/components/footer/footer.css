@@ -3,14 +3,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #353531;
+  background: #c4c3be;
   padding: 40px 0;
 }
 
 .logoFooter p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
-  color: #ffffff;
+  color: #253c78;
 }
 
 .socialMedia {
@@ -19,14 +19,14 @@
 }
 .socialMedia i {
   padding: 10px;
-  color: #ff9505;
+  color: #104547;
   font-size: 1.5em;
   border-radius: 50px;
   transform: 0.5s;
   transition: all 0.5s;
 }
 .socialMedia i:hover {
-  color: #353531;
-  background: #ff9505;
+  color: #c4c3be;
+  background: #104547;
   scale: 1.2;
 }/*# sourceMappingURL=footer.css.map */

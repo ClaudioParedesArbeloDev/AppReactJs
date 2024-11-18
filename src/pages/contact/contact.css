@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
 .contact {
-  background: #353531;
+  background: #c4c3be;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,11 +8,11 @@
 }
 .contact h1 {
   font-family: "Montserrat", sans-serif;
-  color: #ff9505;
+  color: #104547;
 }
 .contact label {
   font-family: "Space Grotesk", serif;
-  color: #ff9505;
+  color: #104547;
   font-size: 1.1rem;
   padding: 10px;
 }
@@ -21,23 +21,23 @@
   margin: 10px;
   width: 40vw;
   border: none;
-  background: #ff9505;
+  background: #104547;
   border-radius: 10px;
-  color: #000000;
+  color: #8e9aaf;
 }
 .contact textarea {
   border: none;
   border-radius: 10px;
   width: 40vw;
   height: 20vh;
-  background: #ff9505;
+  background: #104547;
   padding: 10px;
   margin: 10px;
-  color: #000000;
+  color: #8e9aaf;
 }
 .contact button {
   border: none;
-  background: #ff9505;
+  background: #104547;
   padding: 10px 15px 10px 15px;
   margin: 10px;
   border-radius: 10px;

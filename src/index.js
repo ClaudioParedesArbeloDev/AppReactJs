@@ -11,6 +11,8 @@ import AboutUs from './pages/aboutUs/aboutUs';
 import Contact from './pages/contact/contact';
 import ProductDetail from './pages/products/productDetail/productDetail';
 import Login from './pages/login/login';
+import Register from './pages/register/register';
+import Cart from './pages/cart/cart';
 import Footer from './components/footer/footer';
 
 //Styles
@@ -32,7 +34,8 @@ root.render(
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path='/login' element={<Login />} />
-
+          <Route path='/register' element={<Register />} />
+          <Route path='/cart' element={<Cart />} />
         </Routes>
         <Footer />
       </BrowserRouter>

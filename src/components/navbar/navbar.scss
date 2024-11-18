@@ -74,13 +74,26 @@
 }
 
 .cart{
-    color: $light-color;
-    padding: 10px;
-    border-radius: 50px;
+    a{
+        text-decoration: none;
+        i{
+            color: $light-color;
+            padding: 10px;
+            border-radius: 50px;
+            transition: all 0.5s;
+        }
+    }
+    
+    
     
 }
 
 .cart:hover{
-    background: $light-color;
-    color: $secondary-color;
+    a{
+        i{
+            background: $light-color;
+            color: $secondary-color;
+        }
+    }
+
 }

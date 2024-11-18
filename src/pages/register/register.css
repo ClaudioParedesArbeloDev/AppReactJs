@@ -1,47 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
-.loginPage {
+.registerPage {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
   align-items: center;
-}
-.loginPage h2 {
+  margin-top: 50px;
   font-family: "Space Grotesk", serif;
+}
+.registerPage h1 {
+  font-size: 3rem;
   margin: 60px 0 80px 0;
 }
 
-.form {
+.formRegister {
   display: flex;
   flex-direction: column;
 }
-.form label {
+.formRegister label {
   font-family: "Space Grotesk", serif;
   padding-left: 10px;
 }
-.form input {
+.formRegister input {
   font-family: "Space Grotesk", serif;
   border: none;
   background: #104547;
-  width: 300px;
-  height: 30px;
+  width: 600px;
+  height: 50px;
   color: #c4c3be;
   border-radius: 10px;
   margin: 10px;
   padding: 20px;
 }
-.form button {
+.formRegister button {
   font-family: "Space Grotesk", serif;
   border: none;
   background: #104547;
-  width: 300px;
-  height: 30px;
-  color: #c4c3be;
+  color: #9ebc9f;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
   border-radius: 10px;
   margin: 10px;
   cursor: pointer;
-}
-.form p {
-  font-family: "Space Grotesk", serif;
-  margin: 0;
-  padding: 10px;
-}/*# sourceMappingURL=login.css.map */
+}/*# sourceMappingURL=register.css.map */

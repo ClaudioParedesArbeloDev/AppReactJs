@@ -5,6 +5,7 @@ import "./login.css"
 function Login() {
     return (
         <div className="loginPage">
+            <h2>Login</h2>
             <form className="form" action="">
                 <label htmlFor="Username">Username</label>
                 <input type="text" id="Username" placeholder="Username" />
