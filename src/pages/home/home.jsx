@@ -25,7 +25,7 @@ function Home() {
                 } while (randomIndex === currentProductIndex); // Evitar repetir el mismo índice
                 return randomIndex;
             });
-        }, 8000);
+        }, 5000);
 
         return () => clearInterval(interval); // Limpiar el intervalo al desmontar el componente
     }, [products, currentProductIndex]); // Depender del array de productos y del índice actual
