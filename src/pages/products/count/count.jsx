@@ -9,12 +9,14 @@ function Count(props) {
     const increment = () => {
         if(count < props.stock){
         setCount(count + 1);
+        props.cantidades(count);
         }
     }   
 
     const decrement = () => {
         if(count > 0){
         setCount(count - 1);
+        props.cantidades(count);
         }
     }
 

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import "./productDetail.css"
 import Count from "../count/count";
 
-function ProductDetail() {
+function ProductDetail(props) {
 
     // Obtiene el parámetro "id" de la URL
     const { id } = useParams();
@@ -29,6 +29,16 @@ function ProductDetail() {
             })
         }, [id]);
 
+        const [cantidad, setCantidad] = useState(0);
+
+        const tomarCantidad = (numero) => {
+            setCantidad(numero);
+        }
+
+        useEffect(() => {
+            console.log("Ud a pedido " + cantidad + " unidades y el precio total es " + cantidad * product.precio);
+        }, [cantidad]);
+
     return (
         <div className="wrapProductDetail">
             <div className="card" style={{ width: '26rem' }}>
@@ -38,7 +48,7 @@ function ProductDetail() {
                         <h6 className="card-subtitle mb-2 text-muted fw-bold">{product.modelo}</h6>
                         <p className="card-text">Descripción: {product.descripcion}</p>
                         <p className="card-text">Precio: €{product.precio}</p>
-                        <Count stock={product.stock}/>
+                        <Count stock={product.stock} cantidades={tomarCantidad}/>
                         <button className="btn btn-warning">Agregar al carrito</button>
                         
                     </div>
