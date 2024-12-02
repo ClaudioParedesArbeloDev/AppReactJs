@@ -8,15 +8,17 @@ function Count(props) {
 
     const increment = () => {
         if(count < props.stock){
-        setCount(count + 1);
-        props.cantidades(count);
+        const newCount = count + 1;
+        setCount(newCount);
+        props.cantidades(newCount);
         }
     }   
 
     const decrement = () => {
         if(count > 0){
-        setCount(count - 1);
-        props.cantidades(count);
+        const newCount = count - 1;
+        setCount(newCount);
+        props.cantidades(newCount);
         }
     }
 

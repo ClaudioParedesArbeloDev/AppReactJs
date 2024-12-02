@@ -8,7 +8,7 @@ function ProductDetail(props) {
 
     // Obtiene el parámetro "id" de la URL
     const { id } = useParams();
-
+    
     //Se utiliza para almacenar el producto en un estado
     const [product, setProduct] = useState([]);
 
@@ -35,8 +35,12 @@ function ProductDetail(props) {
             setCantidad(numero);
         }
 
+        //function cantidad(parametro){
+            //lo que queremos que haga la funcion
+            //}
+
         useEffect(() => {
-            console.log("Ud a pedido " + cantidad + " unidades y el precio total es " + cantidad * product.precio);
+            console.log("Ud a pedido " + cantidad + "  de unidades y el precio total es " + cantidad * product.precio);
         }, [cantidad]);
 
     return (

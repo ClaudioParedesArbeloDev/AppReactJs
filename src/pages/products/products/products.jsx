@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Count from "../count/count";
 
 import "./products.css"
-import userEvent from "@testing-library/user-event";
+
 
 
 function Products(props) {
@@ -22,7 +22,7 @@ function Products(props) {
                         <h5 className="card-title text-uppercase">{marca}</h5>
                         <h6 className="card-subtitle mb-2 text-muted fw-bold">{modelo}</h6>
                         <p className="card-text">Precio: ${precio}</p>
-                        <Count stock={stock}  />
+                        
                         <Link to={`/products/${id}`} className="btn btn-warning">Ver Producto</Link>
                         
                     </div>
